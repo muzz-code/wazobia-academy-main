@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Wazobia Academy</title>
+</head>
+<body id="my-account">
+    <header class="primary-header">
+      
+            <div class="upper-header bg-dark">
+                <div class="container flex">
+                    <div class="header-contact fs-300 flex text-white">
+                        <a  href="mailto:coordinator@wazobia.academy"><i class="far fa-envelope"></i>coordinator@wazobia.academy</a>
+
+                        <a  href="tel:09088975611""><i class="fas fa-phone"></i>  0908 897 5611</a>                   
+                    </div>
+                    <div class="header-social-login text-white fs-300 flex">
+                        <div class="follow flex">
+                            <p>Follow us :</p>
+                            <a href="https://www.facebook.com/academywazobia" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/wazobiaacademy/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/wazobia-academy/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div>
+                            <a style= "border-radius: 50px" class="btn btn-accent btn-accent--alt" href="authentication.html">Login / SignUp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-header">
+                <div class="container flex">
+                    <div class="site-logo">
+                        <a href="index.html"><img src="images/wacademy-logo.png" alt=""></a>
+                    </div>
+                    <button class="mobile-nav-toggle" aria-controls="primary-navigation"></button>
+                    <nav>
+                        <ul role="list" class="primary-navigation flex">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="my-account.html">My Account</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="nav-icons flex">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+       
+    </header>
+
+    <main>
+
+        <!-- Page Header -->
+        <section class="page-header flex">
+            <div class="container">
+                <h2>My Account</h2>
+            </div>
+        </section>
+
+        <section class="user-profile ">
+            <div class="container flex">
+                <div class="user-profile__welcome flex">
+                    <img class="user-avatar" src="images/blobby-green.svg" alt="">
+                    <h2>Welcome Hope Odiri</h2>
+                </div>
+                <a class="text-dark" href="course.html">
+                    <div class="user-profile__cta flex">
+                        <p><span class="user__pro">PRO</span>Get more out of Wazobia Academy</p>
+                        <p>Go deeper and learn job-ready skills with our entire course package. Earn a certificate of completion for every couse finished</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="user-detail">
+            <div class="user-container flex">
+                <div class="user-details__sections flex">
+                    <h2 class="fs-400">My Stuff</h2>
+                    <ul class="flow user-detail__list"  role="list">
+                        <li class="user-details__course current">Courses</li>
+                        <li class="user-details__profile">Profile</li>
+                        <li class="user-details__pro-login">Pro Details</li>
+                        <li class="user-details__help">Help</li>
+                    </ul>
+                </div>
+
+                <div class="user-details__content">
+                    <div class="user-details__content_course user-active flow">
+                        <h2>Purhcased Courses</h2>
+                        <div>
+                            <p>You've not purchased any course yet</p>
+                        </div>
+                    </div>
+                    
+                    <div class="user-details__content_profile flow">
+                        <h2 class="fs-500">Your Profile</h2>
+                        <div class="profile-details flex">
+                           <div class="flow">
+                                <p>username :</p>
+                                <p>Password :</p>
+                           </div>
+                           <div class="flow">
+                                <p>HopeTeddie</p>
+                                <p>hope@1</p>
+                           </div>
+                        </div>
+                        <a style="text-decoration: underline; padding: 0" href="#" class="text-dark btn">Forgot Password</a>
+                    </div> 
+
+                    <div class="user-details__content_pro-login flow">
+                        <h2 class="fs-500">Teach On Mars Logins</h2>
+                        <div class="profile-details flex">
+                           <div class="flow">
+                                <p>username :</p>
+                                <p>Password :</p>
+                           </div>
+                           <div class="flow">
+                                <p>HopeTeddie</p>
+                                <p>hope@1</p>
+                           </div>
+                        </div>
+                        
+                    </div> 
+
+                    <div class="user-details__content_help flow" style="--flow-space: 2rem">
+                        <h2 class="fs-500">Help Points</h2>
+                        <div class="help-details flex">
+                           <a href="contact.html" class="btn btn-accent">Contact Us</a>
+                           <a href="faq.html" class="btn btn-accent">FAQ</a>
+                           <a href="https://wa.link/mnrzch" class="btn btn-accent" target="_blank">WhatsApp</a>
+                        </div>
+                        
+                    </div> 
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="main-footer ">
+        <div class="container  flex">
+
+           <div class="footer__col text-white flex">
+
+               <img class="site-logo" src="images/wacademy-logo.png" alt="">
+
+               <div class="footer__address flex fs-300">
+                <i class="fas fa-map-marker-alt"></i>
+                <p> 6-8 General Ogomudia Boulevard,<br>
+                    Lekki, 
+                    Lagos.</p>
+               </div>
+           </div>
+
+           <div class="footer__col text-white flex">
+               <h3>Quick Links</h3>
+               <ul class="fs-300 footer__links flex" role="list">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Partners</a></li>
+            </ul>
+           </div>
+
+           <div class="footer__col text-white flex">
+               <h3>Contact</h3>
+                <div class="footer__contact flex fs-300">
+                    <a href="mailto:coordinator@wazobia.academy"><i class="far fa-envelope"></i>coordinator@wazobia.academy</a>
+
+                    <a href="tel:09088975611"><i class="fas fa-phone"</i></i>  0908 897 5611</a>
+                </div> 
+           </div>
+
+           <div class="footer__col text-white flex">
+               <h3>Socials</h3>
+                <div class="footer__socials flex">
+                    <a href="https://www.facebook.com/academywazobia" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/wazobiaacademy/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/wazobia-academy/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+           </div>
+        </div>
+        <div class="footer__copyright text-white fs-200" style="text-align: center">
+            <p>© 2021 By Wazobia Academy</p>
+        </div>
+    </footer>
+
+
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>
